@@ -1,0 +1,50 @@
+.product-item {
+
+
+
+	img {
+		width: 100%;
+
+	}
+
+	h4 {
+		height: 32px;
+		overflow: hidden;
+		margin: 16px 0 10px 0;
+	}
+
+	p {
+		height: 52px;
+		overflow: hidden;
+		margin: 16px 0 10px 0;
+	}
+
+	.flex-star {
+		height: 24px;
+		width: max-content;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		margin-bottom: 8px;
+		cursor: pointer;
+	}
+}
+
+.star-active {
+	color: #f1a709;
+}
+
+.color-list {
+	display: flex;
+	margin: 2px;
+}
+
+
+
+.product-item-footer {
+	padding-bottom: 20px;
+
+	& h3 {
+		margin-right: 20px;
+	}
+}

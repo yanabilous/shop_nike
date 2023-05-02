@@ -1,0 +1,27 @@
+.wrapper-product {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+	width: 100%;
+	
+
+	.wrapper-item {
+		display: flex;
+		width: 480px;
+		overflow: hidden;
+
+		img {
+			height: 50px;
+			width: 46px;
+		}
+
+		h5 {
+			margin-left: 20px;
+			text-align: start;
+			width: 100%;
+		}
+	}
+
+	
+}

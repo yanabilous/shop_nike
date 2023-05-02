@@ -1,0 +1,22 @@
+.flex-start {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header {
+	background-color: white;
+	box-shadow: rgb(0, 0, 0, 0.4) 3px 3px 5px 2px;
+	padding: 10px 30px;
+	margin-bottom: 10px;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+
+
+
+	h1 {
+		cursor: pointer;
+	}
+}
